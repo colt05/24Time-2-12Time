@@ -63,7 +63,7 @@
             Return String.Concat(nTime, " ", AmPm)
         Else
             'Nothing needs to be done, because 12 is half of 24.
-            'Apply the variab+les.
+            'Apply the variables.
             tHr = tfHr
             'Add the : and minutes to the new time to apply to the 12 text box, and glitch fix.
             If tHr >= 10 Then
