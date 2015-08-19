@@ -1,7 +1,7 @@
 ﻿Public Class TimeConvert
     ''' <summary>
     ''' Convert time from 24 Format to 12 Format.
-    ''' This function can throw a _24212C-DLL.InvalidTimeException because the time may be invalid, but will move on if it is given a is a valid time.
+    ''' This function can throw a InvalidTimeException because the time may be invalid, but will move on if it is given a is a valid time.
     ''' </summary>
     ''' <param name="toConvert">This is the time in 24 Format that will be converted. This must include a : between the hours and the minutes, or else the conversion will fail.</param>
     ''' <param name="forceConvert">Set this to true if you want to force the conversion without throwing InvalidTimeExceptions.</param>
@@ -63,7 +63,7 @@
             Return String.Concat(nTime, " ", AmPm)
         Else
             'Nothing needs to be done, because 12 is half of 24.
-            'Apply the variab+les.
+            'Apply the variables.
             tHr = tfHr
             'Add the : and minutes to the new time to apply to the 12 text box, and glitch fix.
             If tHr >= 10 Then
