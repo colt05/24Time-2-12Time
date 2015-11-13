@@ -1,2 +1,3 @@
 language: csharp
 solution: 2421C-DLL.sln
+sudo: required
