@@ -1,0 +1,8 @@
+c:\users\jeff\documents\visual studio 2013\Projects\24212C-DLL\24212C-DLL\bin\Debug\24212C-DLL.dll
+c:\users\jeff\documents\visual studio 2013\Projects\24212C-DLL\24212C-DLL\bin\Debug\24212C-DLL.pdb
+c:\users\jeff\documents\visual studio 2013\Projects\24212C-DLL\24212C-DLL\bin\Debug\24212C-DLL.xml
+c:\users\jeff\documents\visual studio 2013\Projects\24212C-DLL\24212C-DLL\obj\Debug\_24212C_DLL.Resources.resources
+c:\users\jeff\documents\visual studio 2013\Projects\24212C-DLL\24212C-DLL\obj\Debug\24212C-DLL.vbproj.GenerateResource.Cache
+c:\users\jeff\documents\visual studio 2013\Projects\24212C-DLL\24212C-DLL\obj\Debug\24212C-DLL.dll
+c:\users\jeff\documents\visual studio 2013\Projects\24212C-DLL\24212C-DLL\obj\Debug\24212C-DLL.xml
+c:\users\jeff\documents\visual studio 2013\Projects\24212C-DLL\24212C-DLL\obj\Debug\24212C-DLL.pdb

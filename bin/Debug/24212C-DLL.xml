@@ -1,0 +1,52 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+24212C-DLL
+</name>
+</assembly>
+<members>
+<member name="M:_24212C_DLL.TimeConvert.convertTime(System.String,System.Boolean)">
+	<summary>
+ Convert time from 24 Format to 12 Format.
+ This function can throw a _24212C-DLL.InvalidTimeException because the time may be invalid, but will move on if it is given a is a valid time.
+ </summary>
+	<param name="toConvert">This is the time in 24 Format that will be converted. This must include a : between the hours and the minutes, or else the conversion will fail.</param>
+	<param name="forceConvert">Set this to true if you want to force the conversion without throwing InvalidTimeExceptions.</param>
+	<remarks></remarks>
+</member><member name="M:_24212C_DLL.TimeConvert.convertTimeFromTwelve(_24212C_DLL.TwelveFormatTime)">
+	<summary>
+ Convert the time from the 12 time format to the 24 time format.
+ </summary>
+	<param name="twelveformat">This is the 12 time format to be converted from.</param>
+	<returns>The 24 time format string.</returns>
+	<remarks></remarks>
+</member><member name="T:_24212C_DLL.TimeConvert.InputFormat">
+	<summary>
+ This is used in convertTime() to tell it which type of time to convert from and which to convert to.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:_24212C_DLL.TwelveFormatTime.#ctor(System.Int32,System.Int32,_24212C_DLL.TwelveFormatTime.AMPMTime)">
+	<summary>
+ Creates a new TwelveFormatTime for use with ConvertTime.
+ </summary>
+	<param name="HourTime">The integer of hours to be used (Must be double digits, 3 would turn into 03).</param>
+	<param name="MinTime">The integer of minutes to be used (Must also be double digits).</param>
+	<param name="IsAmOrPm">This is the enum for if the time is in the AM or the PM.</param>
+	<remarks></remarks>
+</member><member name="P:_24212C_DLL.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:_24212C_DLL.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:_24212C_DLL.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
