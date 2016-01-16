@@ -4,6 +4,9 @@ platform: Any CPU
 build:
   project: 24212C-DLL.sln
   verbosity: normal
+artifacts:
+- path: bin/Release/24212C-DLL.dll
+  name: dll
 deploy:
 - provider: GitHub
   description: Automatic AppVeyor Release
