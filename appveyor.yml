@@ -3,7 +3,7 @@ configuration: Release
 platform: Any CPU
 build:
   project: 24212C-DLL.sln
-  verbosity: detailed
+  verbosity: normal
 artifacts:
 - path: bin/Release/24212C-DLL.dll
   name: dll
