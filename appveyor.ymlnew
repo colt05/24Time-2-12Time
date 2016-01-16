@@ -12,6 +12,5 @@ deploy:
   description: Automatic AppVeyor Release
   auth_token:
     secure: eboRJKDEY27I443NGjyN6uMIVAbJ0bQAmwx+jmjwrJNGhptf3Se5drhsD6j330jb
-  artifact: C:\projects\24time-2-12time\bin\Release\24212C-DLL.dll
   on:
     branch: master
